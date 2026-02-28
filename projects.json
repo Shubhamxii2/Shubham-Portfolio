@@ -8,11 +8,19 @@
       "liveDemo": "#"
     },
     {
-      "title": "Basic Frontend Project",
-      "description": "Responsive website built with semantic HTML, CSS, and vanilla JavaScript.",
+      "title": "To-Do List App",
+      "description": "A simple yet powerful To-Do List designed to help students track their revision schedules effectively! 🎯 This app automatically schedules revisions based on a scientifically proven pattern to reinforce learning and prevent forgetting. 🚀",
       "techStack": ["HTML", "CSS", "JavaScript"],
       "github": "https://github.com/Shubhamxii2",
-      "liveDemo": "#"
+      "liveDemo": "https://shubhamxii2.github.io/To-Do-List/"
+    },
+    {
+      "title": "Tic-Tac-Toe Game",
+      "description": "A simple Tic-Tac-Toe Game built using HTML, CSS and JavaScript. 🚀",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/Shubhamxii2",
+      "liveDemo": "https://shubhamxii2.github.io/Tic-Tac-Toe/"
     }
   ]
+
 }
