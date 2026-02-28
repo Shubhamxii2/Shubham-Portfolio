@@ -20,11 +20,12 @@ It showcases my projects, technical skills, and development experience.
 
 ## 📌 Projects Included
 - AI Quiz App (React + Django REST)
-- Frontend Landing Page
+- Login Form
+- Tic-Tac-Toe Game
 
 ## 📫 Contact
-- LinkedIn: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/shubham-kumar-saw-53a97330a/)
-- GitHub: [https://github.com/yourusername](https://github.com/Shubhamxii2)
+- LinkedIn: [Shubham Kumar Saw](https://www.linkedin.com/in/shubham-kumar-saw-53a97330a/)
+- GitHub: [Shubhamxii2](https://github.com/Shubhamxii2)
 - Email: [shubhamkumarsaw120@gmail.com](mailto:shubhamkumarsaw120@gmail.com)
 
 ---
