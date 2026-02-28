@@ -20,7 +20,7 @@ It showcases my projects, technical skills, and development experience.
 
 ## 📌 Projects Included
 - AI Quiz App (React + Django REST)
-- Login Form
+- To-Do List App
 - Tic-Tac-Toe Game
 
 ## 📫 Contact
