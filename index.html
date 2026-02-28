@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shubham Kumar Saw – Java Backend / Full Stack Developer Portfolio" />
+  <title>Shubham Kumar Saw | Portfolio</title>
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">ShuKuS<span class="accent">.</span></a>
+
+      <div class="nav__right">
+        <!-- Theme toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle__icon" id="themeIcon">&#9790;</span>
+        </button>
+
+        <!-- Hamburger button for mobile -->
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+
+      <ul class="nav__list" id="navList">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+      <div class="container hero__content">
+        <p class="hero__greeting">Hi, I'm</p>
+        <h1 class="hero__name">Shubham Kumar Saw</h1>
+        <h2 class="hero__title">Java Backend / Full Stack Developer</h2>
+        <p class="hero__description">
+          BCA graduate with hands-on experience building REST-based web
+          applications using Django and React.
+        </p>
+        <div class="hero__buttons">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="https://github.com/Shubhamxii2" class="btn btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/shubham-kumar-saw-53a97330a/" class="btn btn--outline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="about__content">
+          <p>
+            I'm a BCA graduate passionate about building reliable, scalable
+            backend systems. My core focus is on <strong>Java</strong> and
+            <strong>Django</strong>, where I design and implement RESTful APIs
+            that power modern web applications.
+          </p>
+          <p>
+            On the frontend I work with <strong>React</strong> and vanilla
+            JavaScript to create responsive, user-friendly interfaces. I'm
+            comfortable with <strong>MySQL</strong> for data modelling and
+            enjoy writing clean, well-structured code.
+          </p>
+          <p>
+            Currently I'm deepening my knowledge of backend architecture,
+            design patterns, and deployment workflows to build
+            production-ready applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__grid">
+
+          <!-- Backend -->
+          <div class="skills__card">
+            <h3 class="skills__category">Backend</h3>
+            <ul class="skills__list">
+              <li>Java</li>
+              <li>JDBC</li>
+              <li>REST APIs</li>
+              <li>Django</li>
+            </ul>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skills__card">
+            <h3 class="skills__category">Frontend</h3>
+            <ul class="skills__list">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+          <!-- Database -->
+          <div class="skills__card">
+            <h3 class="skills__category">Database</h3>
+            <ul class="skills__list">
+              <li>MySQL</li>
+              <li>SQLite</li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div class="skills__card">
+            <h3 class="skills__category">Tools</h3>
+            <ul class="skills__list">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Postman</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Projects</h2>
+          <!-- <button class="btn btn--primary btn--add" id="addProjectBtn">+ Add Project</button> -->
+        </div>
+
+        <!-- Cards rendered dynamically by JS -->
+        <div class="projects__grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECT MODAL ===== -->
+    <div class="projects__grid" id="projectsGrid"></div>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section section--alt" id="contact">
+      <div class="container contact__content">
+        <h2 class="section__title">Get in Touch</h2>
+        <p class="contact__text">
+          I'm open to opportunities, collaborations, and conversations.
+          Feel free to reach out through any of the channels below.
+        </p>
+        <div class="contact__links">
+          <a href="mailto:shubhamkumarsaw120@gmail.com" class="btn btn--primary">Email Me</a>
+          <a href="https://www.linkedin.com/in/shubham-kumar-saw-53a97330a/" class="btn btn--outline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/Shubhamxii2" class="btn btn--outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Shubham Kumar Saw. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

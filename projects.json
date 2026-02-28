@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "AI Quiz App",
+      "description": "An intelligent quiz application built using React and Django with REST APIs.",
+      "techStack": ["React", "Django", "REST API", "SQLite"],
+      "github": "https://github.com/Shubhamxii2",
+      "liveDemo": "#"
+    },
+    {
+      "title": "Basic Frontend Project",
+      "description": "Responsive website built with semantic HTML, CSS, and vanilla JavaScript.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/Shubhamxii2",
+      "liveDemo": "#"
+    }
+  ]
+}
